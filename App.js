@@ -1,7 +1,6 @@
 import React from 'react';
 import { StyleSheet, Platform, Image, Text, View, ScrollView } from 'react-native';
-import { Provider } from 'react-redux'
-import { store } from './redux'
+
 import firebase from 'react-native-firebase';
 
 export default class App extends React.Component {
@@ -20,7 +19,6 @@ export default class App extends React.Component {
 
   render() {
     return (
-	<Provider store={store}>
       <ScrollView>
         <View style={styles.container}>
           <Image source={require('./assets/ReactNativeFirebase.png')} style={[styles.logo]}/>
@@ -60,7 +58,6 @@ export default class App extends React.Component {
           </View>
         </View>
       </ScrollView>
-	  </Provider>
     );
   }
 }

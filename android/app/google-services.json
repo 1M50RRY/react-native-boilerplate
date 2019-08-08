@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:281631630684:android:bfb39e17fe1b4251",
+        "mobilesdk_app_id": "1:281631630684:android:8ad09ff9d5aa6b01",
         "android_client_info": {
-          "package_name": "com.atsamazgatsoev.waterize"
+          "package_name": "com.example.boilerplate"
         }
       },
       "oauth_client": [

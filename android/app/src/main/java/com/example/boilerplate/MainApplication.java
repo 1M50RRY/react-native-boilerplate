@@ -1,8 +1,9 @@
-package com.atsamazgatsoev.waterize;
+package com.example.boilerplate;
 
 import android.support.multidex.MultiDexApplication;
 
 import com.facebook.react.ReactApplication;
+import io.invertase.firebase.RNFirebasePackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
