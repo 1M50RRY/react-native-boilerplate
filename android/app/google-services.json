@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "281631630684",
+    "firebase_url": "https://waterize-50a6c.firebaseio.com",
+    "project_id": "waterize-50a6c",
+    "storage_bucket": "waterize-50a6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281631630684:android:bfb39e17fe1b4251",
+        "android_client_info": {
+          "package_name": "com.atsamazgatsoev.waterize"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "281631630684-mej9ec7ohob61d5nqvlafj1j4rtfr5qf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFyclAczWAv6csoANiinFrHl7qr6dnoJA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "281631630684-mej9ec7ohob61d5nqvlafj1j4rtfr5qf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

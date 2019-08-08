@@ -1,0 +1,36 @@
+{
+  "name": "Waterize",
+  "version": "5.4.0",
+  "private": true,
+  "scripts": {
+    "android-bundle": "ORG_GRADLE_PROJECT_bundleInDev=true npm run android",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios --simulator=\"iPhone X\"",
+    "apk": "cd android && ./gradlew assembleRelease",
+    "rename": "node ./bin/rename.js",
+    "start": "react-native start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "native-base": "^2.13.4",
+    "react": "16.8.3",
+    "react-native": "^0.60.4",
+    "react-native-firebase": "^5.5.4",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/runtime": "^7.4.5",
+    "babel-jest": "^24.8.0",
+    "fs-extra": "^7.0.1",
+    "jest": "^24.8.0",
+    "metro-react-native-babel-preset": "^0.54.1",
+    "react-test-renderer": "16.8.3",
+    "replace-in-file": "^3.4.4"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
