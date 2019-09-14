@@ -23,6 +23,10 @@ target 'Boilerplate' do
   pod 'Fabric', '~> 1.10.2'
   pod 'Crashlytics', '~> 3.13.2'
 
+  pod 'RNCAsyncStorage', :path => '../node_modules/@react-native-community/async-storage'
+
+  pod 'rn-splash-screen', :path => '../node_modules/rn-splash-screen'
+
 end
 
 target 'Boilerplate-tvOS' do

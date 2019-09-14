@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Platform, Image, Text, View, ScrollView } from 'react-native';
-
+import SplashScreen from "rn-splash-screen";
 import firebase from 'react-native-firebase';
 
 export default class App extends React.Component {
@@ -15,6 +15,8 @@ export default class App extends React.Component {
     // console.warn('User -> ', user.toJSON());
 
     // await firebase.analytics().logEvent('foo', { bar: '123'});
+
+    SplashScreen.hide();
   }
 
   render() {
